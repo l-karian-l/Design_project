@@ -175,3 +175,60 @@ text7{
     text-align: center;
 }
     
+
+
+/* ПРЕИМУЩЕСТВА */
+
+.Our_Success {
+    /* Our Success */
+    position: absolute;
+    width: 1559px;
+    height: 311.16px;
+    left: 170px;
+    right: 191px;
+    top: 2023px;
+    bottom: 3008.84px;
+}
+
+text8{
+    /* SIA_US_JEWELRY */
+    position: absolute;
+    width: 681px;
+    height: 86.54px;
+    margin: 0 auto;
+    color: rgb(199, 138, 23);
+    font-family: Cormorant Garamond;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* Бестселлеры */
+.Bestsellers{
+    position: absolute;
+    width: 1920.99px;
+    height: 1287.15px;
+    left: 0;
+    right: -0.99px;
+    top: 2283px;
+    bottom: 1772.85px;
+}    
+    
+text9{
+    /* Работы */
+    position: absolute;
+    width: 251px;
+    height: 71px;
+    left: 1454px;
+    top: 2496px;
+    color: rgb(79, 57, 34);
+    font-family: Cormorant Garamond;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+   
