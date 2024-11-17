@@ -18,6 +18,19 @@ body{
         top: 22px;
         bottom: 4265px;
     }
+
+    .back2 {
+        /* фон для текста */
+        position: absolute;
+        width: 1657px;
+        height: 899px;
+        left: 121px;
+        top: 95px;
+        border-radius: 50px;
+        background: url("\static\11Ван-гог.jpg")
+    }
+
+
     
     .Name1 {
         /* SIA_US_JEWELRY */
