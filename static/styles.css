@@ -27,146 +27,152 @@ body{
         left: 121px;
         top: 95px;
         border-radius: 50px;
-        background: url("\static\11Ван-гог.jpg")
-    }
-
-
-    
-    .Name1 {
-        /* SIA_US_JEWELRY */
-        position: absolute;
-        width: 310px;
-        height: 48px;
-        left: 137px;
-        top: 22px;
-        color: rgb(199, 138, 23);
-        font-family: Cormorant Garamond;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    
-    .name2 {
-        /* О себе */
-        position: absolute;
-        width: 105.47px;
-        height: 44px;
-        left: 646px;
-        top: 26px;
-        color: rgb(79, 57, 34);
-        font-family: Alegreya SC;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 44px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    
-    .name3{
-        /* Преимущества */
-        position: absolute;
-        width: 232px;
-        height: 44px;
-        left: 826px;
-        top: 26px;
-        color: rgb(79, 57, 34);
-        font-family: Alegreya SC;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 44px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-    
-    .name4{
-        /* Бестселлеры */
-        position: absolute;
-        width: 194px;
-        height: 44px;
-        left: 1132px;
-        top: 26px;
-        color: rgb(79, 57, 34);
-        font-family: Alegreya SC;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 44px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
-
+        z-index: 0;
+        background: url("\static\11Ван-гог.jpg") no-repeat center center;
+        }
         
-    
+    .Name1 {
+            /* SIA_US_JEWELRY */
+            position: absolute;
+            width: 310px;
+            height: 48px;
+            left: 137px;
+            top: 22px;
+            color: rgb(199, 138, 23);
+            font-family: Cormorant Garamond;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 1;
+        }
+        
+    .name2 {
+            /* О себе */
+            position: absolute;
+            width: 105.47px;
+            height: 44px;
+            left: 646px;
+            top: 26px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 1;
+        }
+        
+    .name3{
+            /* Преимущества */
+            position: absolute;
+            width: 232px;
+            height: 44px;
+            left: 826px;
+            top: 26px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 1;
+            
+        }
+        
+    .name4{
+            /* Бестселлеры */
+            position: absolute;
+            width: 194px;
+            height: 44px;
+            left: 1132px;
+            top: 26px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 1;
+        }
+
     .text1 {
-    /* Откройте ... */
-        position: absolute;
-        width: 748px;
-        height: 151px;
-        left: 183px;
-        top: 430px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: rgb(204, 204, 204);
-        font-family: Alegreya SC;
-        font-size: 50px;
-        font-weight: 400;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-align: center;
-    }
-    
+        /* Откройте ... */
+            position: absolute;
+            width: 748px;
+            height: 151px;
+            left: 183px;
+            top: 430px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: rgb(204, 204, 204);
+            font-family: Alegreya SC;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            z-index: 1;
+        }
+        
     .text2{
-        /* Красота в мелочах: */
-        position: absolute;
-        width: 712px;
-        height: 113px;
-        left: 197px;
-        top: 287px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: rgb(204, 204, 204);
-        font-family: Alice;
-        font-size: 77px;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0%;
-        text-align: center;
-    }
-    
+            /* Красота в мелочах: */
+            position: absolute;
+            width: 712px;
+            height: 113px;
+            left: 197px;
+            top: 287px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: rgb(204, 204, 204);
+            font-family: Alice;
+            font-size: 77px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-align: center;
+            z-index: 1;
+        }
+        
     .text3{
-        /* SIA_US_JEWELRY */
-        position: absolute;
-        width: 546px;
-        height: 90px;
-        left: 1066px;
-        top: 441px;
-        color: rgb(204, 204, 204);
-        font-family: Cormorant Garamond;
-        font-size: 70px;
-        font-weight: 700;
-        line-height: 85px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
+            /* SIA_US_JEWELRY */
+            position: absolute;
+            width: 546px;
+            height: 90px;
+            left: 1066px;
+            top: 441px;
+            color: rgb(204, 204, 204);
+            font-family: Cormorant Garamond;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 85px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 1;
+        }
 
     .text4{
-        /* Украшения ручной работы */
-        position: absolute;
-        width: 512px;
-        height: 74px;
-        left: 1083px;
-        top: 531px;
-        color: rgb(230, 204, 139);
-        font-family: Alice;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 46px;
-        letter-spacing: 0%;
-        text-align: center;
-    }
+            /* Украшения ручной работы */
+            position: absolute;
+            width: 512px;
+            height: 74px;
+            left: 1083px;
+            top: 531px;
+            color: rgb(230, 204, 139);
+            font-family: Alice;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 46px;
+            letter-spacing: 0%;
+            text-align: center;
+            z-index: 1;
+        }
 
 
 
