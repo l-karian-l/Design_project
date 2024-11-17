@@ -35,6 +35,56 @@ body{
         text-align: left;
     }
     
+    .name2 {
+        /* О себе */
+        position: absolute;
+        width: 105.47px;
+        height: 44px;
+        left: 646px;
+        top: 26px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .name3{
+        /* Преимущества */
+        position: absolute;
+        width: 232px;
+        height: 44px;
+        left: 826px;
+        top: 26px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .name4{
+        /* Бестселлеры */
+        position: absolute;
+        width: 194px;
+        height: 44px;
+        left: 1132px;
+        top: 26px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+        
+    
     .text1 {
     /* Откройте ... */
         position: absolute;
@@ -212,6 +262,18 @@ body{
         bottom: 1772.85px;
     }
     
+    back1{
+        /* Rectangle 96 */
+        position: absolute;
+        width: 1920px;
+        height: 1118px;
+        left: 0;
+        top: 2452px;
+        box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(229, 204, 139, 0.53);
+        z-index: 0;
+    }
+    
     text9{
         /* Работы */
         position: absolute;
@@ -226,4 +288,261 @@ body{
         line-height: 73px;
         letter-spacing: 0%;
         text-align: right;
+        z-index: 3;
     } 
+    
+    
+    .square1{
+        /* Rectangle 1 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 112px;
+        top: 2592px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square2{
+        /* Rectangle 2 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 112px;
+        top: 3075.68px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square3{
+        /* Rectangle 3 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 541px;
+        top: 2592px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square4{
+        /* Rectangle 4 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 542px;
+        top: 3075.68px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square5{
+        /* Rectangle 5 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 970px;
+        top: 2592px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    
+    .square6{
+        /* Rectangle 6 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 970px;
+        top: 3075.68px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square7{
+        /* Rectangle 7 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 1401px;
+        top: 2592px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .square8{
+        /* Rectangle 9 */
+        position: absolute;
+        width: 386px;
+        height: 437.57px;
+        left: 1401px;
+        top: 3075.68px;
+        border-radius: 20px;
+        box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+        background: rgb(255, 255, 255);
+        z-index: 2;
+    }
+    
+    .text10{
+    /* Позолоченная фурнитура, сердолик */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 163px;
+        top: 2972.18px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text11{
+        /* Позолоченная фурнитура, кошачий глаз */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 163px;
+        top: 3455.86px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text12{
+        /* Родированная фурнитура, майорка */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 588px;
+        top: 2972.18px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text13{
+        /* Родированная фурнитура, белый агат, майорка */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 588px;
+        top: 3450.74px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text14{
+        /* Позолоченная фурнитура, сердолик */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 1020px;
+        top: 2972.18px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text15{
+        /* Сатинированная позолота, майорка */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 1020px;
+        top: 3455.86px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text16{
+        /* Чернённая фурнитура, шунгит */
+        position: absolute;
+        width: 285px;
+        height: 47.14px;
+        left: 1451px;
+        top: 2972.18px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    .text17{
+        /* Позолоченная фурнитура */
+        position: absolute;
+        width: 285px;
+        height: 23.57px;
+        left: 1451px;
+        top: 3467.13px;
+        color: rgb(79, 57, 34);
+        font-family: Alegreya SC;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 2%;
+        text-align: center;
+        z-index: 3;
+    }
+    
+    
+    
+    
+    /* ОТЗЫВЫ */
+    .reviews{
+        position: absolute;
+        width: 1666px;
+        height: 575px;
+        left: 117px;
+        right: 137px;
+        top: 3644px;
+        bottom: 1124px;
+    }
