@@ -1,18 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
-        /* Общие стили */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
+    
+        body{
             font-family: Arial, sans-serif;
             background: #fff;
             display: flex;
@@ -21,31 +18,15 @@
             padding: 0 16px;
         }
 
-        .container {
-            max-width: 1200px;
-            width: 100%;
-        }
 
-        /* Шапка с названием*/
-		.header {
+    /* Шапка */
+        .header {
+            /* Header */
             position: relative;
             width: 100%;
             height: 300px;
         }
-
-		.header-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-            color: rgb(199, 138, 23);
-        }
         
-
         .Name1 {
             font-size: 2.5rem;
             font-weight: bold;
@@ -65,127 +46,482 @@
             color: rgb(79, 57, 34);
             font-size: 1.2rem;
             text-decoration: none;
+            font-family: Alegreya SC;
         }
-        
-	
-    /*ОБЛОЖКА*/
-	
+
     	.cover{
-            /*ОБЛОЖКА*/
-        }
-        
-
-        /* Основные текстовые блоки */
-        .text-container .text1, .text-container .text2, .text-container .text3, .text-container .text4 {
-            margin: 10px 0;
-        }
-
-        .text1 {
-            font-size: 1.5rem;
-            color: rgb(204, 204, 204);
-        }
-
-        .text2 {
-            font-size: 2rem;
-            font-family: 'Alice', serif;
-        }
-
-        .text3 {
-            font-size: 1.8rem;
-            font-family: 'Cormorant Garamond', serif;
-        }
-
-        .text4 {
-            color: rgb(230, 204, 139);
-            font-size: 1.2rem;
-            font-family: 'Alice', serif;
-        }
-
-        /* Секции */
-        .section {
-            padding: 40px 0;
-            text-align: center;
-        }
-
-        .section-title {
-            color: rgb(199, 138, 23);
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .testimonials, .bestsellers, .reviews {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .square, .testimonial, .review {
-            background: rgb(255, 255, 255);
-            border-radius: 20px;
-            box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+            width: 100%;
             padding: 20px;
             text-align: center;
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            margin-bottom: 20px;
+            background: url(static/Van.jpg);
+            border-radius: 50px;
+            z-index: 0;
+        }
+ 
+		.grid-container{
+        	display: grid;
+            grid-column-gap: 153px;
+            padding: 10px;
+        }
+        
+        .item1 {
+        	grid-row: 1 / span 2;
+            grid-column: 1;
+            text-align: center;
+            color: rgb(204, 204, 204);
+            font-family: Alice;
+            font-size: clamp(40px, 5vw, 77px); 
+            z-index: 2;
+          
+          }
+          
+         .item2 {
+          	grid-row: 1 / span 2;
+            grid-column: 2;
+            text-align: center;
+            color: rgb(204, 204, 204);
+            font-family: Cormorant Garamond;
+            font-size: clamp(40px, 5vw, 85px); 
+            z-index: 2;
+          
+          }
+          
+         .item4 {
+            text-align: center;
+            color: rgb(230, 204, 139);
+            font-family: Alice;
+            font-size: clamp(40px, 5vw, 46px); 
+            z-index: 2;
+          
+          }
+          
+         .item5{
+            text-align: center;
+            color: rgb( 204, 204, 204 );
+            font-family: Alegreya SC;
+            font-size: clamp(30px, 4vw, 50px); 
+            z-index: 2;
+          }
+        
+
+
+        .text4{
+            /* Украшения ручной работы */
+            position: absolute;
+            width: 512px;
+            height: 74px;
+            left: 1083px;
+            top: 531px;
+            color: rgb(230, 204, 139);
+            font-family: Alice;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 46px;
+            letter-spacing: 0%;
+            text-align: center;
+            z-index: 1;
         }
 
-        /* Тексты в квадратных блоках */
-        .square-text {
-            font-size: 1rem;
+
+
+    /* О СЕБЕ */    
+        .Testimonials  {
+            /* Testimonials */
+            position: absolute;
+            width: 1657px;
+            height: 738px;
+            left: 121px;
+            right: 142px;
+            top: 1179px;
+            bottom: 3426px;
+        }        
+        
+        text5{
+          /* О СЕБЕ */
+          position: absolute;
+          width: 279px;
+          height: 72px;
+          left: 800px;
+          top: 1209px;
+          color: rgb(199, 138, 23);
+          font-family: Cormorant Garamond;
+          font-size: 60px;
+          font-weight: 700;
+          line-height: 73px;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+        
+        text6{
+            /* Усова Анастасия */
+            position: absolute;
+            width: 498px;
+            height: 96px;
+            left: 701px;
+            right: 458px;
+            top: 1295px;
+            bottom: -653px;
             color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: 2%;
+            text-align: center;
+        }
+        
+        text7{
+            /* Занятие украшениями... */
+            position: absolute;
+            width: 531px;
+            height: 296px;
+            left: 684px;
+            right: 442px;
+            top: 1391px;
+            bottom: -949px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 41px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+        
+        
+    /* Преимущества */     
+        .Our_Success {
+            /* Our Success */
+            position: absolute;
+            width: 1559px;
+            height: 311.16px;
+            left: 170px;
+            right: 191px;
+            top: 2023px;
+            bottom: 3008.84px;
+        }
+        
+        text8{
+            /* SIA_US_JEWELRY */
+            position: absolute;
+            width: 681px;
+            height: 86.54px;
+            left: 608px;
+            top: 2023px;
+            color: rgb(199, 138, 23);
+            font-family: Cormorant Garamond;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 73px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+        
+        
+    /* Бестселлеры */
+        .Bestsellers{
+            position: absolute;
+            width: 1920.99px;
+            height: 1287.15px;
+            left: 0;
+            right: -0.99px;
+            top: 2283px;
+            bottom: 1772.85px;
+        }
+        
+        .back1{
+            /* Rectangle 96 */
+            position: absolute;
+            width: 1920px;
+            height: 1118px;
+            left: 0;
+            top: 2452px;
+            box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            background: rgba(229, 204, 139, 0.53);
+            z-index: 0;
+        }
+        
+        .text9{
+            /* Работы */
+            position: absolute;
+            width: 251px;
+            height: 71px;
+            left: 1454px;
+            top: 2496px;
+            color: rgb(79, 57, 34);
+            font-family: Cormorant Garamond;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 73px;
+            letter-spacing: 0%;
+            text-align: right;
+            z-index: 3;
+        }
+        
+        
+        .square1{
+            /* Rectangle 86 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 112px;
+            top: 2592px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
+        }
+        
+         .square2{
+            /* Rectangle 2 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 112px;
+            top: 3075.68px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
         }
 
-        /* Media Queries для адаптации */
-        @media (max-width: 1024px) {
-            .Name1 {
-                font-size: 2rem;
-            }
-
-            .navigation a {
-                font-size: 1rem;
-            }
-
-            .text2, .text3 {
-                font-size: 1.5rem;
-            }
-
-            .section-title {
-                font-size: 1.8rem;
-            }
-
-            .header {
-                height: 250px;
-            }
+        .square3{
+            /* Rectangle 3 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 541px;
+            top: 2592px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
         }
 
-        @media (max-width: 768px) {
-            .header, .text-container, .section {
-                padding: 20px;
-            }
-
-            .text2, .text3 {
-                font-size: 1.2rem;
-            }
-
-            .section-title {
-                font-size: 1.5rem;
-            }
-
-            .header {
-                height: 220px;
-            }
+        .square4{
+            /* Rectangle 4 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 542px;
+            top: 3075.68px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
         }
-    </style>
+
+        .square5{
+            /* Rectangle 5 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 970px;
+            top: 2592px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
+        }
+
+
+        .square6{
+            /* Rectangle 6 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 970px;
+            top: 3075.68px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
+        }
+
+        .square7{
+            /* Rectangle 7 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 1401px;
+            top: 2592px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
+        }
+
+        .square8{
+            /* Rectangle 8 */
+            position: absolute;
+            width: 386px;
+            height: 437.57px;
+            left: 1401px;
+            top: 3075.68px;
+            border-radius: 20px;
+            box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+            background: rgb(255, 255, 255);
+            z-index: 2;
+        }
+        
+        .text10{
+        /* Позолоченная фурнитура, сердолик */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 163px;
+            top: 2972.18px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+        
+    	.text11{
+            /* Позолоченная фурнитура, кошачий глаз */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 163px;
+            top: 3455.86px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text12{
+            /* Родированная фурнитура, майорка */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 588px;
+            top: 2972.18px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text13{
+            /* Родированная фурнитура, белый агат, майорка */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 588px;
+            top: 3450.74px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text14{
+            /* Позолоченная фурнитура, сердолик */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 1020px;
+            top: 2972.18px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text15{
+            /* Сатинированная позолота, майорка */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 1020px;
+            top: 3455.86px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text16{
+            /* Чернённая фурнитура, шунгит */
+            position: absolute;
+            width: 285px;
+            height: 47.14px;
+            left: 1451px;
+            top: 2972.18px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+        .text17{
+            /* Позолоченная фурнитура */
+            position: absolute;
+            width: 285px;
+            height: 23.57px;
+            left: 1451px;
+            top: 3467.13px;
+            color: rgb(79, 57, 34);
+            font-family: Alegreya SC;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 2%;
+            text-align: center;
+            z-index: 3;
+        }
+
+
+
+    /* ОТЗЫВЫ */
+        .reviews{
+            position: absolute;
+            width: 1666px;
+            height: 575px;
+            left: 117px;
+            right: 137px;
+            top: 3644px;
+            bottom: 1124px;
+        }
+
+
+
+
+</style>
 </head>
 <body>
-   
-    <div class="container">
-        <!-- Шапка -->
-        <header class="header">
+    
+   <header class="header">
             <div class="header-content">     
                 <div class="Name1">SIA_US_JEWELRY</div>
                 <nav class="navigation">
@@ -196,36 +532,65 @@
                 </nav>
             </div>
         </header>
-
-
-
-        <!-- Секции -->
-        <section id="about" class="section testimonials">
-            <h2 class="section-title">О себе</h2>
-            <div class="testimonial square">Информация об авторе и увлечении</div>
-        </section>
-
-        <section id="advantages" class="section">
-            <h2 class="section-title">Преимущества</h2>
-            <div class="Our_Success square">Краткий список преимуществ</div>
-        </section>
-
-        <section id="bestsellers" class="section bestsellers">
-            <h2 class="section-title">Бестселлеры</h2>
-            <div class="square">
-                <div class="square-text">Позолоченная фурнитура, сердолик</div>
+        
+    <header class="cover">
+            <div class="grid-container">
+              <div class="item1">Красота в мелочах: </div>
+              <div class="item2">SIA_US_JEWELRY</div>
+              <div class="item3">3</div>
+              <div class="item4">Украшения ручной работы</div>
+              <div class="item5">Откройте для себя бесконечное великолепие украшений</div>
             </div>
-            <div class="square">
-                <div class="square-text">Родированная фурнитура, майорка</div>
-            </div>
-            <!-- Добавьте остальные блоки с украшениями -->
-        </section>
+        </header>
 
-        <section id="reviews" class="section reviews">
-            <h2 class="section-title">Отзывы</h2>
-            <div class="review">Отзыв клиента</div>
-            <div class="review">Отзыв клиента</div>
-        </section>
-    </div>
+  
+    <Testimonials id="about">
+        <text6>Усова Анастасия</text6>
+        <text7>Занятие украшениями было моей маленькой мечтой... 
+Сейчас я даже не вспомню когда я впервые попыталась их делать. 
+На протяжении многих лет я собираю украшения из позолоченной, родированной и посеребрянной фурнитуры с натуральными камнями.
+Принимала участие в различных выставках и ярмарках.</text7>
+		<text5>О СЕБЕ</text5>
+    </Testimonials>
+    
+    
+    <Our_Success id="advantages">
+    	<text8>SIA_US_JEWELRY</text8>
+    </Our_Success>
+    
+    
+    <Bestsellers id="bestsellers">
+        <div class="back1"></div> 
+        <div class="text9">Работы</div>
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="square3"></div>
+        <div class="square4"></div>
+        <div class="square5"></div>
+        <div class="square6"></div>
+        <div class="square7"></div>
+        <div class="square8"></div>
+        <div class="text10">Позолоченная фурнитура, сердолик</div>
+        <div class="text11">Позолоченная фурнитура, кошачий глаз</div>
+        <div class="text12">Родированная фурнитура, майорка</div>
+        <div class="text13">Родированная фурнитура, белый агат, майорка</div>
+        <div class="text14">Позолоченная фурнитура, сердолик</div>
+        <div class="text15">Сатинированная позолота, майорка</div>
+        <div class="text16">Чернённая фурнитура, шунгит</div>
+        <div class="text17">Позолоченная фурнитура</div>
+        
+        
+    </Bestsellers>
+    
+    <reviews>
+
+    </reviews>
+    
+    
+    <section>
+        
+    </section>
+    <footer>
+    </footer>
 </body>
 </html>
